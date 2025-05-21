@@ -8,6 +8,18 @@ import { RegionModule } from './region/region.module';
 import { DistrictModule } from './district/district.module';
 import { CustomerCardModule } from './customer_card/customer_card.module';
 import { CustomerAddressModule } from './customer_address/customer_address.module';
+import { BookingModule } from './booking/booking.module';
+import { LangModule } from './lang/lang.module';
+import { TicketModule } from './ticket/ticket.module';
+import { TicketStatusModule } from './ticket_status/ticket_status.module';
+import { EventModule } from './event/event.module';
+import { EventTypeModule } from './event_type/event_type.module';
+import { HumanCategoryModule } from './human_category/human_category.module';
+import { SeatModule } from './seat/seat.module';
+import { SeatTypeModule } from './seat_type/seat_type.module';
+import { CartModule } from './cart/cart.module';
+import { CartItemModule } from './cart_item/cart_item.module';
+import { DeliveryMethodModule } from './delivery_method/delivery_method.module';
 
 @Module({
   imports: [
@@ -20,6 +32,18 @@ import { CustomerAddressModule } from './customer_address/customer_address.modul
     DistrictModule,
     CustomerCardModule,
     CustomerAddressModule,
+    BookingModule,
+    LangModule,
+    TicketModule,
+    TicketStatusModule,
+    EventModule,
+    EventTypeModule,
+    HumanCategoryModule,
+    SeatModule,
+    SeatTypeModule,
+    CartModule,
+    CartItemModule,
+    DeliveryMethodModule,
 
   ],
   controllers: [],
