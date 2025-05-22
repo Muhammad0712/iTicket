@@ -20,6 +20,11 @@ import { SeatTypeModule } from './seat_type/seat_type.module';
 import { CartModule } from './cart/cart.module';
 import { CartItemModule } from './cart_item/cart_item.module';
 import { DeliveryMethodModule } from './delivery_method/delivery_method.module';
+import { PaymentMethodModule } from './payment_method/payment_method.module';
+import { VenueModule } from './venue/venue.module';
+import { VenuePhotoModule } from './venue_photo/venue_photo.module';
+import { VenueTypesModule } from './venue_types/venue_types.module';
+import { TypesModule } from './types/types.module';
 
 @Module({
   imports: [
@@ -44,6 +49,11 @@ import { DeliveryMethodModule } from './delivery_method/delivery_method.module';
     CartModule,
     CartItemModule,
     DeliveryMethodModule,
+    PaymentMethodModule,
+    VenueModule,
+    VenuePhotoModule,
+    VenueTypesModule,
+    TypesModule,
 
   ],
   controllers: [],
